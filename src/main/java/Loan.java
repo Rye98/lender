@@ -4,6 +4,8 @@ public class Loan {
     private boolean isPaid;
     private double interestRate;
 
+    private static int maxLoanAMount = 0;
+
     public Loan(String borrower, int amount, double interestRate) {
         this.borrower = borrower;
         this.amount = amount;
